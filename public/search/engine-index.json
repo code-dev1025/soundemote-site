@@ -1,0 +1,5233 @@
+{
+  "version": 1,
+  "departments": [
+    {
+      "id": "portal",
+      "label": "Portal",
+      "title": "Portals",
+      "emoji": "🌐",
+      "pitch": "Patch boundary portals for moving left, right, and mono signal lanes between rooms, templates, and larger circuits."
+    },
+    {
+      "id": "controller",
+      "label": "Controller",
+      "title": "Controllers",
+      "emoji": "🕹️",
+      "pitch": "Input devices and control bridges for keyboards, MIDI, gamepads, and external gestures."
+    },
+    {
+      "id": "oscillator",
+      "label": "Oscillator",
+      "title": "Oscillator",
+      "emoji": "〰️",
+      "pitch": "Voices and raw tones: classic waves, tables, sync, supersaws, and other things that start a sound."
+    },
+    {
+      "id": "modulator",
+      "label": "Modulator",
+      "title": "Modulator",
+      "emoji": "♾️",
+      "pitch": "Motion sources for pitch, amplitude, time, and texture. Small control engines that make patches move."
+    },
+    {
+      "id": "additive",
+      "label": "Additive",
+      "title": "Additive",
+      "emoji": "📊",
+      "pitch": "Harmonic-stack voices: build timbre from partials, not a single waveform."
+    },
+    {
+      "id": "chaos",
+      "label": "Chaos",
+      "title": "Chaos",
+      "emoji": "🌌",
+      "pitch": "All the various attractors and strange motion systems. The wild shelf where math starts looking back."
+    },
+    {
+      "id": "jerobeam",
+      "label": "Jerobeam",
+      "title": "Jerobeam",
+      "emoji": "♻️",
+      "pitch": "Jerobeam spiral and orbit motion systems. Spiral Generator lives here."
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "title": "Noise",
+      "emoji": "🌧️",
+      "pitch": "Noise, dust, instability, sparks, and all the useful mess a clean machine secretly needs."
+    },
+    {
+      "id": "drum",
+      "label": "Drum",
+      "title": "Drum",
+      "emoji": "🥁",
+      "pitch": "Rhythm machines, drum voices, pattern engines, and percussion control surfaces."
+    },
+    {
+      "id": "dynamics",
+      "label": "Dynamics",
+      "title": "Dynamics",
+      "emoji": "⚡",
+      "pitch": "Power routing, level control, offsets, and response shaping for keeping a circuit alive under pressure."
+    },
+    {
+      "id": "envelope",
+      "label": "Envelope",
+      "title": "Envelope",
+      "emoji": "📐",
+      "pitch": "Attack, decay, sustain, release, and gate-shaped motion. Make sound and visuals breathe on command."
+    },
+    {
+      "id": "scientificFilter",
+      "label": "Scientific Filter",
+      "title": "Scientific Filter",
+      "emoji": "💧",
+      "pitch": "Textbook responses. Hz, order, clean controls — Passive, Active, Tilt, and other predictable spectral tools."
+    },
+    {
+      "id": "analogFilter",
+      "label": "Analog Filter",
+      "title": "Analog Filter",
+      "emoji": "🔥",
+      "pitch": "Named character circuits. Timbre first — 303, Flower Child, SuperLove, and other engines with personality."
+    },
+    {
+      "id": "musical",
+      "label": "Musical",
+      "title": "Musical",
+      "emoji": "🎼",
+      "pitch": "Pitch, scale, and harmony tools: quantizers, chord pickers, progressions, and other note-theory building blocks."
+    },
+    {
+      "id": "space",
+      "label": "Space",
+      "title": "Space",
+      "emoji": "⛪",
+      "pitch": "Delay, reverb, distortion, and performance processors for shaping finished sound."
+    },
+    {
+      "id": "clock",
+      "label": "Time",
+      "title": "Time",
+      "emoji": "⌚",
+      "pitch": "Clocks, sequencers, dividers, counters, and trigger timing — everything that decides WHEN the rest of the patch fires."
+    },
+    {
+      "id": "digital",
+      "label": "Digital",
+      "title": "Digital",
+      "emoji": "🔬",
+      "pitch": "Patch-local code surfaces, exact value conversion, and digital/visual programming tools inside the sandbox."
+    },
+    {
+      "id": "sample",
+      "label": "Sample Player",
+      "title": "Sample Player",
+      "emoji": "🎶",
+      "pitch": "Sample and music-file playback: one-shots, loops, and scrubbable players that turn stored audio into patch signal."
+    },
+    {
+      "id": "object",
+      "label": "Object",
+      "title": "Object",
+      "emoji": "🧊",
+      "pitch": "Things you place in the world rather than wire into the signal path -- indicator lights, label plates, and other in-world props."
+    },
+    {
+      "id": "rgb",
+      "label": "RGB",
+      "title": "RGB",
+      "emoji": "🌈",
+      "pitch": "RGB analog picture and vector faces — Pixel Grid, Vector RGB, and other color-path scopes."
+    },
+    {
+      "id": "rgba",
+      "label": "Shader",
+      "title": "Shader",
+      "emoji": "🖼️",
+      "pitch": "Screen-space shaders, color-space, image, and screen-wash modules — RGBA/HSLA, chroma, and stills."
+    },
+    {
+      "id": "oscilloscope",
+      "label": "Oscilloscope",
+      "title": "Oscilloscope",
+      "emoji": "📺",
+      "pitch": "Dedicated display testbeds for trace, line burn, 2D scope, videoscope, and canvas-style waveform inspection."
+    },
+    {
+      "id": "multimeter",
+      "label": "Multimeter",
+      "title": "Multimeter",
+      "emoji": "📟",
+      "pitch": "Readouts that are not waveforms: numbers, character grids, and other value/message faces for what the signal is saying right now."
+    },
+    {
+      "id": "gametrigger",
+      "label": "Game Trigger",
+      "title": "Game Triggers",
+      "emoji": "♟️",
+      "pitch": ""
+    },
+    {
+      "id": "debug",
+      "label": "Debug",
+      "title": "Debug",
+      "emoji": "🐞",
+      "pitch": "Inspection tools, sentinels, and safety monitors for catching bad values while a patch is under test."
+    },
+    {
+      "id": "invisible",
+      "label": "Invisible",
+      "title": "Invisible",
+      "emoji": "",
+      "pitch": "Not listed. Modules we are unsure about — hidden from the module browser for users and developers."
+    }
+  ],
+  "modules": [
+    {
+      "type": "activeFilter",
+      "label": "Active Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Scientific multipole ladder with optional drive—precise slopes plus bite.",
+      "notes": [
+        "active",
+        "multipole",
+        "Hz cutoff",
+        "resonance 0-1",
+        "feedback circuit",
+        "gain compensation",
+        "LP HP BP",
+        "Robin Schmidt",
+        "RS-MET",
+        "scientific"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/active_filter/active_filter.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "additiveOsc",
+      "label": "Additive Osc",
+      "category": "additive",
+      "categoryLabel": "Additive",
+      "description": "Build timbres from harmonics—use for organ-ish, bell-ish, or carefully voiced spectra.",
+      "notes": [
+        "additive synthesis",
+        "harmonics",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/additive_osc/additive_osc.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "airClipper",
+      "label": "AirClipper",
+      "category": "invisible",
+      "categoryLabel": "Invisible",
+      "description": "Not listed. Holding pen — unsure about this module.",
+      "notes": [
+        "invisible",
+        "airwindows",
+        "Density3",
+        "density",
+        "soft clip"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "aliasSine",
+      "label": "Alias Sine",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Raw sine that intentionally wraps past Nyquist—hear aliasing as a feature, not a bug.",
+      "notes": [
+        "sine",
+        "aliasing",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/alias_sine/alias_sine.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "allpass",
+      "label": "Allpass Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Phase-only filtering for phasers, correction, and delay-ish lag without EQ.",
+      "notes": [
+        "allpass",
+        "phase",
+        "SVF",
+        "ZDF",
+        "scientific",
+        "Robin Schmidt",
+        "RS-MET",
+        "not a delay line"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "animatedTextBox",
+      "label": "Animated Text Box",
+      "category": "object",
+      "categoryLabel": "Object",
+      "description": "Wireable title/text plate so messages can be driven by the patch.",
+      "notes": [
+        "data-plane ports",
+        "port scripts",
+        "wired label"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "antisaw",
+      "label": "Antisaw",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Cooked “aliasing on purpose” saw color—fold Nyquist junk into musical in-band grit.",
+      "notes": [
+        "simulated aliasing",
+        "additive resynthesis",
+        "reflections",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/antisaw/antisaw.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "archimedes",
+      "label": "Archimedes",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Cheap quadrature sine/cosine pair (and a novelty π readout) for modulation and math demos.",
+      "notes": [
+        "quadrature",
+        "fixed-point",
+        "realtime oscillator"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/archimedes/archimedes.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "arp",
+      "label": "Arp",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Placeholder Arp — classic note arpeggiator for held chords / pitch CV (under construction).",
+      "notes": [
+        "under construction",
+        "arp",
+        "arpeggiator",
+        "musical",
+        "sequence",
+        "pitch",
+        "hold"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "asciiscope",
+      "label": "Asciiscope",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Under construction. XY character-grid phosphor is parked and cannot be dragged into the modular area.",
+      "notes": [
+        "under construction",
+        "xy",
+        "glyph ramp",
+        "phosphor decay",
+        "character trail",
+        "oscilloscope"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "attackDecay",
+      "label": "Attack Decay",
+      "category": "envelope",
+      "categoryLabel": "Envelope",
+      "description": "Simple A/D envelope (loop/LFO options)—default easy amp/mod shape.",
+      "notes": [
+        "attack",
+        "decay",
+        "curve",
+        "gamma",
+        "gate",
+        "trigger",
+        "loop",
+        "lfo",
+        "easy envelope",
+        "default envelope",
+        "vactrol style",
+        "one-pole",
+        "exponential",
+        "RC"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "attenuverter",
+      "label": "Attenuverter",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Scale and invert a signal, then add offset. Amplitude −1…+1 (0 mute, +1 unity, −1 invert).",
+      "notes": [
+        "attenuverter",
+        "scale",
+        "invert",
+        "offset",
+        "utility",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/attenuverter/attenuverter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "audioInput",
+      "label": "Input",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Bring the live mic/line into the patch as Mono, Left, Right.",
+      "notes": [
+        "audio source",
+        "mono left right",
+        "live input"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "audioPlayer",
+      "label": "Music Player",
+      "category": "sample",
+      "categoryLabel": "Sample Player",
+      "description": "Play music files with scrub/phasor control—loops, stems, and timelines.",
+      "notes": [
+        "music playback",
+        "scrubbable",
+        "phasor",
+        "audio source"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "sandbox",
+        "silently-dreaming"
+      ]
+    },
+    {
+      "type": "b2u",
+      "label": "B2U",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Bipolar −1…1 to unipolar 0…1 (out = (in + 1) / 2).",
+      "notes": [
+        "bipolar",
+        "unipolar",
+        "convert",
+        "range",
+        "minus 1 to 1",
+        "0 to 1",
+        "utility"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/b2u/b2u.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "badvalMonitor",
+      "label": "BADVAL Monitor",
+      "category": "debug",
+      "categoryLabel": "Debug",
+      "description": "Watch for NaN/inf/explosions—show when the circuit goes invalid.",
+      "notes": [
+        "NaN guard",
+        "infinity guard",
+        "warning face",
+        "debug safety"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "bandpass",
+      "label": "Bandpass Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Resonant pitched bandpass for formants, peaks, and ringing filters.",
+      "notes": [
+        "bandpass",
+        "resonant",
+        "2-pole",
+        "SVF",
+        "ZDF",
+        "scientific",
+        "Robin Schmidt",
+        "RS-MET",
+        "0.1V"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "bessel",
+      "label": "Bessel Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Soft Bessel multipole when you want less ringing and gentler time smear.",
+      "notes": [
+        "bessel",
+        "thomson",
+        "group delay",
+        "musical accuracy",
+        "approximated",
+        "classical"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/bessel/bessel.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "besselThomson",
+      "label": "Bessel-Thomson Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Placeholder Bessel–Thomson filter — maximally flat group delay (Thomson).",
+      "notes": [
+        "under construction",
+        "bessel",
+        "thomson",
+        "group delay",
+        "linear phase",
+        "scientific"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "bias",
+      "label": "Bias",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Nudge a signal off center—steer bipolar CV into a new range.",
+      "notes": [
+        "addition",
+        "offset",
+        "control lane shift",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/bias/bias.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "binaryClock",
+      "label": "Binary Clock",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Placeholder binary counter with bit outs.",
+      "notes": [
+        "under construction",
+        "binary",
+        "counter",
+        "clock",
+        "sequence",
+        "bits"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "bitConverter",
+      "label": "BitConverter",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Bridge integer bitmasks ↔ CV so digital key masks can modulate audio-rate paths.",
+      "notes": [
+        "normalize",
+        "0..1",
+        "-1..1",
+        "bitmask"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "blit",
+      "label": "BLIT",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Band-limited impulse-train tones for classic digital waves that stay sharp but controlled.",
+      "notes": [
+        "anti-aliasing",
+        "blit",
+        "realtime oscillator"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/blit/blit.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "bloomGlow",
+      "label": "Bloom & Glow",
+      "category": "rgba",
+      "categoryLabel": "Shader",
+      "description": "Drive bloom/glow/dim of the screen wash from control signals.",
+      "notes": [
+        "under construction",
+        "visual sink",
+        "dim input",
+        "bloom and glow",
+        "shader"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "blubb",
+      "label": "Jerobeam Blubb",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Placeholder Jerobeam Blubb motion—reserved for future path engine.",
+      "notes": [
+        "placeholder",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_blubb/jerobeam_blubb.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "bode",
+      "label": "Bode Shifter",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Frequency shift (not pitch shift)—metallic, inharmonic, bubbly spectra.",
+      "notes": [
+        "bode",
+        "frequency shifter",
+        "SSB",
+        "Hilbert",
+        "space"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "boing",
+      "label": "Jerobeam Boing",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Placeholder Jerobeam Boing motion—reserved for future bounce/path engine.",
+      "notes": [
+        "placeholder",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_boing/jerobeam_boing.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "bradley2a",
+      "label": "Bradley 2A Jitter/Hit Synth",
+      "category": "object",
+      "categoryLabel": "Object",
+      "description": "Broken-line test tone: add jitter, hits, dropouts, and interference for character and stress tests.",
+      "notes": [
+        "test-tone impairment",
+        "jitter",
+        "frequency translation",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/bradley_2a/bradley_2a.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "bugButton",
+      "label": "Bug Button",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Resizable character button with down/up spikes, held and hover gates, and bipolar pointer X/Y outputs.",
+      "notes": [
+        "editable glyph",
+        "pointer gates",
+        "down/up spikes",
+        "bipolar X/Y"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "butterworth",
+      "label": "Butterworth Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Clean multipole LP/HP/BP/BR. Fine for a simple two-way split (pair LP+HP yourself); for 3+ bands use 3–6 Crossover.",
+      "notes": [
+        "butterworth",
+        "multipole",
+        "flat passband",
+        "scientific",
+        "two-way ok",
+        "use Crossover for 3+ bands"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/butterworth/butterworth.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "buttonEvents",
+      "label": "Button Events",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Website/UI clicks as patch pulses—hook page UX into the graph.",
+      "notes": [
+        "external UI",
+        "button triggers",
+        "music page bridge"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "canvas",
+      "label": "Canvas",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Layer images, scopes, and shaders into one composite surface.",
+      "notes": [
+        "layer compositor",
+        "RGBA output",
+        "shader script"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "chaosfly",
+      "label": "Chaosfly",
+      "category": "chaos",
+      "categoryLabel": "Chaos",
+      "description": "Placeholder Chaosfly attractor—fly-like chaotic X/Y/Z motion (under construction).",
+      "notes": [
+        "under construction",
+        "chaos",
+        "attractor",
+        "fly",
+        "X/Y/Z",
+        "modulation"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "chaoticPhaseLockingFilter",
+      "label": "Chaotic Phase Locking Filter",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "Phase-locked chaotic feedback textures through LP/HP stages.",
+      "notes": [
+        "ellipse waveshaper",
+        "direct feedback",
+        "phase locking",
+        "analog"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/chaotic_phase_locking_filter/chaotic_phase_locking_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "chebyshev",
+      "label": "Chebyshev Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Steeper multipole with musical edge—more bite than Butterworth.",
+      "notes": [
+        "chebyshev",
+        "approximated",
+        "equiripple-style",
+        "steep",
+        "musical",
+        "classical"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/chebyshev/chebyshev.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "chordMemory",
+      "label": "Chord Memory",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Capture a chord stack from monophonic pitch and walk or mutate the latched notes.",
+      "notes": [
+        "latch",
+        "mono to chord",
+        "shuffle bag",
+        "mutate walk",
+        "trigger"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/chord_memory/chord_memory.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "chordPad",
+      "label": "Chord Pad",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Pick diatonic chords fast and feed Scale/Root/Gate into quantizers and musical engines.",
+      "notes": [
+        "chord",
+        "diatonic",
+        "scale mask",
+        "root",
+        "pitch quantizer",
+        "pads"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "chordSequencer",
+      "label": "Chord Sequencer",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Clock through progressions for automatic harmony that drives the rest of the pitch chain.",
+      "notes": [
+        "chord progression",
+        "scale mask",
+        "root",
+        "ping-pong",
+        "key"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/chord_sequencer/chord_sequencer.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Placeholder multi-voice chorus thickening.",
+      "notes": [
+        "under construction",
+        "chorus",
+        "delay",
+        "modulation",
+        "space"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "chromaColor",
+      "label": "Chroma Color",
+      "category": "rgba",
+      "categoryLabel": "Shader",
+      "description": "Stylized chroma wash with drift/spread for mood lighting.",
+      "notes": [
+        "under construction",
+        "visual sink",
+        "chroma wash",
+        "moving color"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "chuaAttractor",
+      "label": "Chua Attractor",
+      "category": "chaos",
+      "categoryLabel": "Chaos",
+      "description": "Double-scroll chaos with a different lobe feel than Lorenz—another chaotic CV palette.",
+      "notes": [
+        "double scroll",
+        "circuit chaos",
+        "3D attractor"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/chua_attractor/chua_attractor.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "clipperLimiter",
+      "label": "Clipper Limiter",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Drive with Gain, then Soft Clip last: below Min dB is dry; Min→Max is the shared Soft Clipper tanh knee (wider span = more gradual).",
+      "notes": [
+        "soft clip",
+        "limiter",
+        "dB",
+        "tanh",
+        "ADAA",
+        "dynamics",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/clipper_limiter/clipper_limiter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "clock",
+      "label": "Clock",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Free-running pulse clock to drive sequencers, envelopes, and rhythmic events.",
+      "notes": [
+        "clock",
+        "rate and phase control",
+        "duty cycle",
+        "reset input",
+        "T"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/clock/clock.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "clockDivider",
+      "label": "Clock Divider",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Slow a clock down for subdivisions—half-time gates, bar pulses, lazy LFOs.",
+      "notes": [
+        "clock input",
+        "division control",
+        "reset input"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "codeblock",
+      "label": "Codeblock",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Write JS DSP inline when no stock module does the exact math you need.",
+      "notes": [
+        "dynamic ports",
+        "JavaScript body",
+        "local patch code"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "combResonator",
+      "label": "Comb Resonator",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Pitch-tuned comb/KS-style resonance for plucks, hollow bodies, and harmonic peaks.",
+      "notes": [
+        "comb",
+        "delay feedback",
+        "fractional delay",
+        "thiran",
+        "karplus-strong",
+        "pitch",
+        "decay seconds",
+        "damping",
+        "feedforward",
+        "scientific",
+        "harmonic"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/comb_resonator/comb_resonator.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "comparator",
+      "label": "Comparator",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Detect rises/falls and polarity—edge triggers, change detect, and sign gates.",
+      "notes": [
+        "edge detect",
+        "up",
+        "down",
+        "change",
+        "steady",
+        "sign",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/comparator/comparator.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "cookbookFilter",
+      "label": "Multi Stage Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Stack RBJ biquads for steeper multi-stage slopes when one band isn’t enough.",
+      "notes": [
+        "mode selection",
+        "biquad stages",
+        "magnitude plot",
+        "RBJ",
+        "cascade",
+        "scientific"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "crossover2",
+      "label": "2-Crossover",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Dedicated 2-way Linkwitz–Riley split (low/high outs that recombine flat). LR/Butterworth alone also work for a simple two-way; prefer this for matched band outs.",
+      "notes": [
+        "crossover",
+        "linkwitz-riley",
+        "2-way",
+        "stereo",
+        "scientific",
+        "RS-MET"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/crossover/crossover.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "crossover3",
+      "label": "3-Crossover",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Dedicated 3-way Linkwitz–Riley multiband split—use this (not hand-wired filters) for three or more bands.",
+      "notes": [
+        "crossover",
+        "linkwitz-riley",
+        "3-way",
+        "stereo",
+        "scientific",
+        "RS-MET"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "crossover4",
+      "label": "4-Crossover",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Dedicated 4-way Linkwitz–Riley multiband split—use the Crossover modules for anything beyond a simple two-way.",
+      "notes": [
+        "crossover",
+        "linkwitz-riley",
+        "4-way",
+        "stereo",
+        "scientific",
+        "RS-MET"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "crossover5",
+      "label": "5-Crossover",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Dedicated 5-way Linkwitz–Riley multiband split—prefer Crossover over stacking LR/Butterworth for multi-way work.",
+      "notes": [
+        "crossover",
+        "linkwitz-riley",
+        "5-way",
+        "stereo",
+        "scientific",
+        "RS-MET"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "crossover6",
+      "label": "6-Crossover",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Dedicated 6-way Linkwitz–Riley multiband split—the full multi-band path when two-way LR/Butterworth is not enough.",
+      "notes": [
+        "crossover",
+        "linkwitz-riley",
+        "6-way",
+        "stereo",
+        "scientific",
+        "RS-MET"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "curveOsc",
+      "label": "Curve Oscillator",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Play math curves (rose, Lissajous, etc.) as mono audio or X/Y scope art.",
+      "notes": [
+        "2d to 1d",
+        "project",
+        "lissajous",
+        "rose",
+        "butterfly",
+        "superformula",
+        "parametric",
+        "xy"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "customDisplay",
+      "label": "Custom Display",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Draw a custom face with JS for patch-specific meters, art, or debug visuals.",
+      "notes": [
+        "custom draw",
+        "JavaScript display",
+        "visual sink"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "degreePhrase",
+      "label": "Degree Phrase",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Loop an 8-step degree phrase that can slowly mutate—aging riffs, not classic arps.",
+      "notes": [
+        "phrase",
+        "degrees",
+        "rests",
+        "mutate",
+        "mono"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "degreeTuring",
+      "label": "Degree Turing",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Scale-degree Turing melody—mutate within a key instead of raw voltage.",
+      "notes": [
+        "generative melody",
+        "scale degrees",
+        "mutating loop",
+        "mono"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "delayedTrigger",
+      "label": "Delayed Trigger",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Wait after a hit, then fire—post-roll triggers, delayed envelopes, timed one-shots.",
+      "notes": [
+        "delayed pulse",
+        "reset input",
+        "one-shot timing"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/delayed_trigger/delayed_trigger.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "delayEffect",
+      "label": "Delay",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Modulated feedback delay for echoes, slap, and diffuse trails.",
+      "notes": [
+        "modulated delay",
+        "fractional echo",
+        "diffuse mode",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/delay_effect/delay_effect.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "dotOscilloscope",
+      "label": "Phosphor Dot",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Single soft phosphor dot for sparse, efficient level/position light.",
+      "notes": [
+        "phosphor",
+        "single dot",
+        "sub-frame brightness",
+        "energy drawer"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "drummer",
+      "label": "Drummer",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Placeholder Drummer — pattern/rhythm engine for the Sequence shelf (under construction).",
+      "notes": [
+        "under construction",
+        "drummer",
+        "sequence",
+        "pattern",
+        "drums",
+        "rhythm",
+        "groove"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "dsfOscillator",
+      "label": "DSF Oscillator",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Alias-free DSF kit (sine/saw/PWM/etc.) for clean digital tones with classic PWM tools.",
+      "notes": [
+        "oscillator",
+        "dsf",
+        "discrete summation formula",
+        "anti-aliasing",
+        "0.1V/Oct",
+        "phase CV",
+        "amplitude CV",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/dsf_oscillator/dsf_oscillator.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "electroHat",
+      "label": "ElectroHat",
+      "category": "drum",
+      "categoryLabel": "Drum",
+      "description": "Placeholder classic electro hi-hat voice.",
+      "notes": [
+        "under construction",
+        "drum",
+        "hi-hat",
+        "hat",
+        "electro",
+        "percussion",
+        "cymbal"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "electroKick",
+      "label": "ElectroKick",
+      "category": "drum",
+      "categoryLabel": "Drum",
+      "description": "Placeholder classic electro kick voice.",
+      "notes": [
+        "under construction",
+        "drum",
+        "kick",
+        "electro",
+        "percussion",
+        "bass drum"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "electroSnare",
+      "label": "ElectroSnare",
+      "category": "drum",
+      "categoryLabel": "Drum",
+      "description": "Placeholder classic electro snare voice.",
+      "notes": [
+        "under construction",
+        "drum",
+        "snare",
+        "electro",
+        "percussion"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "ellipsoid",
+      "label": "RoundShape",
+      "category": "modulator",
+      "categoryLabel": "Modulator",
+      "description": "Sine→square ellipse shapes for soft-to-hard tones and dual uni/bi X/Y outs.",
+      "notes": [
+        "RoundShape",
+        "getSineToSquare",
+        "Uni X",
+        "Uni Y",
+        "Bi X",
+        "Bi Y",
+        "Limit AA",
+        "f",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/ellipsoid/ellipsoid.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "ellipsoidOsc",
+      "label": "Ellipsoid",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Full parametric ellipsoid path for rich 2D-scope-friendly oscillators.",
+      "notes": [
+        "ellipsoid",
+        "offset",
+        "shape",
+        "scale",
+        "Limit AA",
+        "X/Y",
+        "native"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "elliptic",
+      "label": "Elliptic Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Aggressive multipole tone color (approx elliptic)—sharp, not lab-true Cauer.",
+      "notes": [
+        "elliptic",
+        "cauer",
+        "approximated",
+        "sharp",
+        "not true zeros",
+        "classical",
+        "RS-MET later"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/elliptic/elliptic.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "ePiano",
+      "label": "E.Piano (5)",
+      "category": "sample",
+      "categoryLabel": "Sample Player",
+      "description": "Placeholder GM Electric Piano 1 (program 5) sample/MIDI voice (under construction).",
+      "notes": [
+        "under construction",
+        "sample",
+        "e.piano",
+        "electric piano",
+        "GM",
+        "program 5",
+        "midi",
+        "soundfont"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "eqFilter",
+      "label": "EQ Filter",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Zero-latency multipurpose EQ band (LP/HP/peak/shelf…) for clean tone fixes.",
+      "notes": [
+        "eq",
+        "eq filter",
+        "equalizer",
+        "equaliser",
+        "EQ",
+        "SVF",
+        "ZDF",
+        "lowpass",
+        "highpass",
+        "bandpass",
+        "shelf",
+        "peak",
+        "notch",
+        "Robin Schmidt",
+        "RS-MET",
+        "min-phase",
+        "scientific",
+        "scientific filter",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/eq_filter/eq_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "evolveField",
+      "label": "Evolve Field",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Under construction. Reserved for an eventual noise flow-field experiment (full-plate evolving noise / flow — not Julia / kaleidoscope).",
+      "notes": [
+        "under construction",
+        "noise",
+        "flow field",
+        "full plate",
+        "rgb",
+        "reserved",
+        "do not implement yet"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "expAdsr",
+      "label": "Curve Envelope",
+      "category": "envelope",
+      "categoryLabel": "Envelope",
+      "description": "Full DADSR curve envelope for long articulations and looped contours.",
+      "notes": [
+        "gate input",
+        "target-ratio curves",
+        "loopable envelope",
+        "curve shape",
+        "native",
+        "DADSR",
+        "prefer Attack Decay for simple AD"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/exp_adsr/exp_adsr.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "fbmField",
+      "label": "Fractal Brownian Field",
+      "category": "noise",
+      "categoryLabel": "Noise",
+      "description": "Value-noise fBm field (native WASM). Face and X/Y/Z share one domain mapping (Scroll / Volume). WebGL only presents the mono grid + gradient.",
+      "notes": [
+        "fbf",
+        "LayoutB",
+        "field",
+        "wasm",
+        "native-only",
+        "same-kernel",
+        "scroll",
+        "volume",
+        "out x/y/z",
+        "wisiwih",
+        "no-js-fallback"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/fbm_field/fbm_field.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "flanger",
+      "label": "Flanger",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Placeholder classic short-delay flanger FX.",
+      "notes": [
+        "under construction",
+        "flanger",
+        "delay",
+        "modulation",
+        "space"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "flexGrid",
+      "label": "Flex Grid",
+      "category": "modulator",
+      "categoryLabel": "Modulator",
+      "description": "Placeholder flexible multi-point control grid for morphing CV shapes (under construction).",
+      "notes": [
+        "under construction",
+        "modulator",
+        "grid",
+        "multi-point",
+        "control surface",
+        "morph"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "flowerChildEnvelopeFollower",
+      "label": "Envelope Follower",
+      "category": "envelope",
+      "categoryLabel": "Envelope",
+      "description": "Follow input loudness into CV—sidechain shapes and dynamics rides.",
+      "notes": [
+        "audio input",
+        "attack hold decay",
+        "signed follower port"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/flower_child_envelope_follower/flower_child_envelope_follower.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "flowerChildFilter",
+      "label": "Flower Child Filter",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "Character self-osc filter (clean/dirty/rev/downsample modes).",
+      "notes": [
+        "self-oscillating",
+        "4 modes",
+        "feedback FM",
+        "analog"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/flower_child_filter/flower_child_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "formantFilter",
+      "label": "Formant Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Placeholder formant/vocal filter bank.",
+      "notes": [
+        "under construction",
+        "formant",
+        "vowel",
+        "scientific"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "fractalBrownianNoise",
+      "label": "Fractal Brownian Motion",
+      "category": "noise",
+      "categoryLabel": "Noise",
+      "description": "Layered fBm drift for natural multi-scale organic modulation.",
+      "notes": [
+        "fbm",
+        "out x/y/z",
+        "seeded value noise",
+        "slow terrain motion"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/fractal_brownian_noise/fractal_brownian_noise.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "reverb"
+      ]
+    },
+    {
+      "type": "fractalSpiral",
+      "label": "Fractal Spiral",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Self-similar fractal spiral motion when plain spirals feel too simple.",
+      "notes": [
+        "fractal",
+        "self-similar",
+        "logarithmic spiral",
+        "Weierstrass function",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/fractal_spiral/fractal_spiral.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "gain",
+      "label": "Gain",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Scale and offset signals—level matching, bias shifts, and simple VCA-style control.",
+      "notes": [
+        "multiplication",
+        "offset",
+        "scale and shift",
+        "utility",
+        "gain bias",
+        "level control",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/gain/gain.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "gainBias",
+      "label": "Gain Bias",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Retired alias of Gain—use Gain (it already has offset).",
+      "notes": [
+        "legacy",
+        "hidden"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "gainBiasMix",
+      "label": "Mix",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Retired alias of Mix—use Mix.",
+      "notes": [
+        "legacy",
+        "hidden"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "gpuAdditiveOsc",
+      "label": "GPU Additive",
+      "category": "additive",
+      "categoryLabel": "Additive",
+      "description": "GPU additive voice when you want heavy harmonic stacks without maxing the audio thread.",
+      "notes": [
+        "additive synthesis",
+        "gpu"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "gradientVectorscope",
+      "label": "Gradient Vectorscope",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "2D trace with color along path length (not phosphor brightness). Optional 90° mid/side rotation.",
+      "notes": [
+        "vectorscope",
+        "gradient",
+        "xy trace",
+        "90",
+        "oscilloscope"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "graph2",
+      "label": "Smooth Graph",
+      "category": "modulator",
+      "categoryLabel": "Modulator",
+      "description": "Shape a control curve by points—map phasors/LFOs into custom response shapes.",
+      "notes": [
+        "curve",
+        "per-point shape",
+        "contour",
+        "Input · LFO · Phasor",
+        "rate without jumps in Phasor"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "graphCopy",
+      "label": "Step Graph",
+      "category": "modulator",
+      "categoryLabel": "Modulator",
+      "description": "Stepped or free control graph when you want quantized X and shared curve tools.",
+      "notes": [
+        "curve",
+        "step grid (0 = free)",
+        "global shape",
+        "per-node curve",
+        "Input · LFO · Phasor"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "gravity",
+      "label": "Gravity",
+      "category": "chaos",
+      "categoryLabel": "Chaos",
+      "description": "Placeholder few-body gravity for phosphor orbits (under construction). First piece of the Doppler module.",
+      "notes": [
+        "under construction",
+        "chaos",
+        "n-body",
+        "orbits",
+        "phosphor",
+        "doppler",
+        "pairwise",
+        "leapfrog"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "gravityWalker",
+      "label": "Gravity Walker",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Stepwise scale walker with occasional leaps—melodies that prefer neighbors but escape ruts.",
+      "notes": [
+        "melodic walker",
+        "gravity",
+        "leap",
+        "mono",
+        "scale"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "groupInput",
+      "label": "Group Input",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Defines an exposed input on a saved module group. Rename it (right-click, module title alias) to name the port that appears on the group's own box.",
+      "notes": [
+        "group interface",
+        "public input",
+        "patch boundary"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "groupOutput",
+      "label": "Group Output",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Defines an exposed output on a saved module group. Rename it (right-click, module title alias) to name the port that appears on the group's own box.",
+      "notes": [
+        "group interface",
+        "public output",
+        "patch boundary"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "helmholtzPitch",
+      "label": "Pitch Detector",
+      "category": "multimeter",
+      "categoryLabel": "Multimeter",
+      "description": "Track monophonic pitch: Hz, fidelity, and lock gate for analysis or follow.",
+      "notes": [
+        "pitch tracking",
+        "pitch detector",
+        "mcleod",
+        "autocorrelation",
+        "frequency follower",
+        "gate"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/helmholtz/helmholtz.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "henonMap",
+      "label": "Henon Map",
+      "category": "chaos",
+      "categoryLabel": "Chaos",
+      "description": "Angular 2D digital chaos for spikier, more “computery” motion than continuous attractors.",
+      "notes": [
+        "chaos",
+        "discrete map",
+        "2D attractor"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/henon_map/henon_map.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "hilbert",
+      "label": "Hilbert",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Mono +90° / −90° phase shift (Hilbert Q). Wire Mid/Side Out Side here, add to Out Mid.",
+      "notes": [
+        "hilbert",
+        "90",
+        "phase",
+        "quadrature",
+        "side",
+        "mono",
+        "real mono",
+        "scientific"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "humanFilter",
+      "label": "Human Filter",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "Bell-in-feedback dual-phasor network for vocal-ish, human filter colors.",
+      "notes": [
+        "dual-phasor feedback",
+        "bell-shaped feedback path",
+        "3 modes",
+        "analog"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/human_filter/human_filter.cpp",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "hypersaw",
+      "label": "Hypersaw",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Massive phase-spread saw bank for dense stereo supersaw beds and visual phase columns.",
+      "notes": [
+        "oscillator",
+        "supersaw",
+        "polyblep",
+        "anti-aliasing",
+        "native",
+        "phosphor display",
+        "under construction"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/hypersaw/hypersaw.cpp",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "image",
+      "label": "Image",
+      "category": "rgba",
+      "categoryLabel": "Shader",
+      "description": "Hold a patch image asset for textures (e.g. phosphor dots).",
+      "notes": [
+        "under construction",
+        "load image",
+        "save image",
+        "trace texture"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "inertialFilter",
+      "label": "Inertial Filter",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Exponential attack/release approach in Hz—smooth catch-up without hard slew corners.",
+      "notes": [
+        "inertia",
+        "attack",
+        "release",
+        "frequency",
+        "Hz",
+        "exponential",
+        "one pole",
+        "asymmetric",
+        "slew",
+        "smooth",
+        "dynamics",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/inertial_filter/inertial_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "inv",
+      "label": "Inv",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Invert a signal (out = −in).",
+      "notes": [
+        "invert",
+        "negate",
+        "flip",
+        "phase invert",
+        "utility"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/inv/inv.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "keplerBouwkamp",
+      "label": "Jerobeam Kepler-Bouwkamp",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Nested polygon spiral for structured X/Y geometric patterns.",
+      "notes": [
+        "nested polygons",
+        "spiral",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_kepler_bouwkamp/jerobeam_kepler_bouwkamp.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "keyboardController",
+      "label": "MIDI",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Hardware MIDI in: pick a device and listen channel. Gate, note, velocity, and pitch CV.",
+      "notes": [
+        "midi input",
+        "midi channel",
+        "note",
+        "gate",
+        "velocity"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "keypad",
+      "label": "Keypad",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "12-key phone pad. Layout B (A/D in | pad | A/D/G/X/Y out). Index wraps. Behavior + Drag.",
+      "notes": [
+        "keypad",
+        "pad",
+        "phone pad",
+        "controller",
+        "analog",
+        "digital",
+        "index",
+        "offset",
+        "gate",
+        "LayoutB",
+        "momentary",
+        "latch",
+        "drag",
+        "xy"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "kickEnvelope",
+      "label": "Kick Envelope",
+      "category": "drum",
+      "categoryLabel": "Drum",
+      "description": "One-shot analog envelope: T trigger, A 0–1. Low/High range, Sharpness sine→square, Linear/Exponential curve.",
+      "notes": [
+        "drum",
+        "kick",
+        "envelope",
+        "trigger",
+        "sharpness",
+        "sine",
+        "square",
+        "percussion"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "knob",
+      "label": "Knob",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Macro face control for one Bias value you want always visible and tweakable.",
+      "notes": [
+        "plugin",
+        "bias output",
+        "in plus knob",
+        "control",
+        "additive cv input",
+        "resizable widget",
+        "manual control",
+        "knob",
+        "pot",
+        "potentiometer",
+        "macro",
+        "value slider"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "ladderFilter",
+      "label": "Ladder Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Lab ladder Mode×Stages surface—same multipole family, different UI.",
+      "notes": [
+        "lab",
+        "stages",
+        "flat",
+        "multipole",
+        "scientific",
+        "RS-MET"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/ladder_filter/ladder_filter.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "led",
+      "label": "LED",
+      "category": "object",
+      "categoryLabel": "Object",
+      "description": "Signal light. Layout B (In | lamp | Out), resizable. Buffered In energy lights a Vector Dot (hue + brightness, smoothstep edge).",
+      "notes": [
+        "LayoutB",
+        "resizable",
+        "input light",
+        "visual indicator",
+        "vector dot"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "linearEnvelope",
+      "label": "Linear Envelope",
+      "category": "envelope",
+      "categoryLabel": "Envelope",
+      "description": "Predictable linear ramps for fades, gates, and simple motion.",
+      "notes": [
+        "gate input",
+        "linear DADSR",
+        "loopable ramp",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/linear_envelope/linear_envelope.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "lineBurnOscilloscope",
+      "label": "1D Phosphor",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Heart-monitor 1D phosphor sweep—persistence trail for mono signals.",
+      "notes": [
+        "1D Phosphor",
+        "heart monitor",
+        "phosphor sweep",
+        "reset",
+        "brightness",
+        "trail",
+        "burn"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "linkwitzRiley",
+      "label": "Linkwitz-Riley Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "One LR-shaped LP or HP path—good for a manual two-way split. For 3+ bands with matched band outs, use 3–6 Crossover.",
+      "notes": [
+        "linkwitz-riley",
+        "single path",
+        "scientific",
+        "two-way ok",
+        "use Crossover for 3+ bands"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/linkwitz_riley/linkwitz_riley.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "logisticMap",
+      "label": "Logistic Map",
+      "category": "chaos",
+      "categoryLabel": "Chaos",
+      "description": "One-knob chaos (R): steady → periodic → wild—great for CV and teaching chaos.",
+      "notes": [
+        "chaos",
+        "bifurcation",
+        "one parameter chaos",
+        "discrete map"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/logistic_map/logistic_map.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "logSpiral",
+      "label": "Logarithmic Spiral",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Perfect equiangular spiral—constant growth look for clean geometric motion.",
+      "notes": [
+        "logarithmic spiral",
+        "equiangular spiral",
+        "self-similar",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/log_spiral/log_spiral.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "lookaheadLimiter",
+      "label": "Limiter",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Brickwall limiter with optional look-ahead and gain compensation (makeup −ceiling to 0 dBFS).",
+      "notes": [
+        "limiter",
+        "look-ahead",
+        "lookahead",
+        "brickwall",
+        "ceiling",
+        "gain compensation",
+        "makeup",
+        "dynamics",
+        "peak",
+        "compressor",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/lookahead_limiter/lookahead_limiter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "lorenzAttractor",
+      "label": "Lorenz Attractor",
+      "category": "chaos",
+      "categoryLabel": "Chaos",
+      "description": "Butterfly chaos for organic X/Y trails, modulation, and never-quite-repeating motion.",
+      "notes": [
+        "butterfly attractor",
+        "3D chaos",
+        "X/Y/Z motion",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/lorenz_attractor/lorenz_attractor.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "shootingstar"
+      ]
+    },
+    {
+      "type": "lutCell",
+      "label": "LUT Cell",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "FPGA-style truth table + flip-flop—build custom digital logic and weird gate patterns.",
+      "notes": [
+        "FPGA logic slice",
+        "lookup table",
+        "flip-flop",
+        "digital signal"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/lut_cell/lut_cell.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "macroControls",
+      "label": "Macro Controls",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Eight always-on macros (M1–M8) for performance control of a whole patch.",
+      "notes": [
+        "macro row",
+        "manual control",
+        "eight outputs",
+        "knob",
+        "slider",
+        "macro",
+        "pot",
+        "display"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "massSpringDamper",
+      "label": "Mass-Spring-Damper",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Placeholder mass–spring–damper analog — 2nd-order mechanical resonator.",
+      "notes": [
+        "under construction",
+        "mass",
+        "spring",
+        "damper",
+        "resonator",
+        "2-pole",
+        "scientific"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "matrixDisplay",
+      "label": "Matrix Display",
+      "category": "multimeter",
+      "categoryLabel": "Multimeter",
+      "description": "Character plate for info/serial text with LCD-style residual.",
+      "notes": [
+        "info plate",
+        "serial",
+        "lcd residual",
+        "text stream",
+        "multimeter"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "matrixWaterfall",
+      "label": "Matrix Waterfall",
+      "category": "multimeter",
+      "categoryLabel": "Multimeter",
+      "description": "Self-running matrix rain face—atmosphere and glyph aesthetics.",
+      "notes": [
+        "rain",
+        "fall",
+        "rise",
+        "Reset",
+        "Spawn",
+        "Speed",
+        "glyph table",
+        "gradient",
+        "multimeter"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "metallicRatio",
+      "label": "Metallic Ratio",
+      "category": "modulator",
+      "categoryLabel": "Modulator",
+      "description": "Golden/silver/bronze ratios for detune spreads, delay lengths, or harmonic spacing.",
+      "notes": [
+        "RS-MET tribute",
+        "metallic mean",
+        "golden ratio",
+        "Robin Schmidt"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/metallic_ratio/metallic_ratio.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "midiNotePitch",
+      "label": "Midi Note Pitch",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Convert MIDI with octave/offset into pitch CV and frequency Hz.",
+      "notes": [
+        "midi note input",
+        "frequency output",
+        "pitch conversion"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "midiOut",
+      "label": "Midi Out",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Dial a fixed MIDI number as CV—static note sources and test pitches.",
+      "notes": [
+        "midi number",
+        "normalized output",
+        "full value output"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "midSideEncode",
+      "label": "Mid/Side",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Stereo → Mid/Side encode (0.5 matrix) for M/S processing and dual-bus routing.",
+      "notes": [
+        "mid/side",
+        "ms",
+        "encode",
+        "matrix",
+        "stereo",
+        "side",
+        "mid",
+        "dynamics",
+        "utility",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/mid_side_encode/mid_side_encode.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "minMax",
+      "label": "Min/Max",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Pick the highest and lowest of several signals—peak tracking, dual-range CV, or selector logic.",
+      "notes": [
+        "Doepfer A-172",
+        "voltage selector",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/min_max/min_max.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "mix",
+      "label": "Mix",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Sum several voices with per-channel level and bias—utility multivoice summing.",
+      "notes": [
+        "mixer",
+        "bias",
+        "bleed",
+        "4-channel",
+        "utility",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/mix/mix.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "mixStereo",
+      "label": "MixStereo",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Four stereo pairs plus Mono into Mono/Left/Right, each pair with Volume and Pan, plus master Amplitude.",
+      "notes": [
+        "mixer",
+        "stereo",
+        "mono",
+        "pan",
+        "volume",
+        "4-channel",
+        "utility",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/mix_stereo/mix_stereo.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "modeResonator",
+      "label": "Mode Resonator",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Ping a clean decaying mode—metallic rings and predictable resonance tails.",
+      "notes": [
+        "mode",
+        "ping",
+        "ring",
+        "complex pole",
+        "decay seconds",
+        "hold",
+        "stable",
+        "scientific",
+        "metallic"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/mode_resonator/mode_resonator.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "moduleGroup",
+      "label": "Module Group",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Under construction. Nested patch box — grouping is not ready to spawn.",
+      "notes": [
+        "under construction",
+        "group",
+        "nested patch",
+        "portal"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "momentaryButton",
+      "label": "Momentary",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Press-and-hold gate for triggers, rolls, and temporary enables.",
+      "notes": [
+        "plugin",
+        "momentary",
+        "gate",
+        "button"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "mushroom",
+      "label": "Jerobeam Mushroom",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Placeholder Jerobeam Mushroom motion—reserved for future path engine.",
+      "notes": [
+        "placeholder",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_mushroom/jerobeam_mushroom.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "nextPatch",
+      "label": "Next Patch",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Trigger to load the next saved patch—setlist / kiosk navigation.",
+      "notes": [
+        "patch navigation",
+        "trigger input",
+        "music player"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "noiseDetector",
+      "label": "Noise Detector",
+      "category": "multimeter",
+      "categoryLabel": "Multimeter",
+      "description": "Pitch-detector fidelity only: how tonal vs noisy the averaged L/M/R mix is, plus a threshold gate.",
+      "notes": [
+        "multimeter",
+        "fidelity",
+        "nsdf",
+        "mcleod",
+        "noise",
+        "gate",
+        "threshold"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "noiseGenerator",
+      "label": "Noise Generator",
+      "category": "noise",
+      "categoryLabel": "Noise",
+      "description": "Stereo noise colors (white/pink/brown/etc.) for texture, percussion, and dither.",
+      "notes": [
+        "stereo output",
+        "uniform to gaussian",
+        "seed control",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/noise_generator/noise_generator.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "noteGlide",
+      "label": "Note Glide",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Portamento/slew on 0.1V/oct so pitch moves slide instead of jump.",
+      "notes": [
+        "portamento",
+        "slew",
+        "0.1v/oct"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "noteTranspose",
+      "label": "Note Transpose",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Shift pitch by semitones/octaves after quantizers or before oscillators.",
+      "notes": [
+        "transpose",
+        "octave",
+        "semitone"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "numberReadout",
+      "label": "Value LED",
+      "category": "multimeter",
+      "categoryLabel": "Multimeter",
+      "description": "Value LED: lit DSEG digits with Ghost/Trail residual hang + Burn sticky floor (app-wide residual policy). Side-mounted input, → thru for chaining. Search: value, LED, numeric display.",
+      "notes": [
+        "value",
+        "value led",
+        "value readout",
+        "number readout",
+        "value display",
+        "latest value",
+        "numeric display",
+        "numeric value",
+        "digital readout",
+        "solid module",
+        "LED readout",
+        "ghost",
+        "trail",
+        "burn",
+        "burnAmount",
+        "DSEG7",
+        "multimeter"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "nyquistShannon",
+      "label": "Jerobeam NyquistShannon",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Placeholder Jerobeam Nyquist-Shannon motion—reserved for future path engine.",
+      "notes": [
+        "placeholder",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_nyquist_shannon/jerobeam_nyquist_shannon.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "osc",
+      "label": "BasicShape",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Everyday multi-wave starter oscillator with pitch CV—default voice for quick patches.",
+      "notes": [
+        "osc",
+        "BasicShape",
+        "multi-waveform",
+        "cv input",
+        "LFO",
+        "oscillator"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/basic_oscillator/basic_oscillator.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "oscilloscopeBank",
+      "label": "Oscilloscope Bank",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Phase/amplitude bank view for multi-voice sources like Hypersaw.",
+      "notes": [
+        "work in progress",
+        "voice bank scope",
+        "phase vs amplitude",
+        "under construction"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "output",
+      "label": "Output",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Final stereo sink—patch here to hear (and meter) the mix.",
+      "notes": [
+        "audio sink",
+        "left right inputs",
+        "render target"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "polyblep",
+        "reverb",
+        "sandbox",
+        "shootingstar",
+        "silently-dreaming",
+        "sinewave",
+        "surgeoscillator"
+      ]
+    },
+    {
+      "type": "papoulisFilter",
+      "label": "Papoulis Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Smooth lowpass with steeper roll-off than Butterworth for the same order.",
+      "notes": [
+        "lowpass",
+        "optimum-l",
+        "legendre",
+        "monotonic",
+        "3-pole",
+        "scientific"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/papoulis_filter/papoulis_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "passiveFilter",
+      "label": "Passive Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Real-pole LP/HP/BP with 6–24 dB slope, stagger spread, and optional −3 dB gain compensation.",
+      "notes": [
+        "lowpass",
+        "highpass",
+        "bandpass",
+        "1-pole",
+        "cascade",
+        "stagger",
+        "6 dB/oct",
+        "24 dB/oct",
+        "tame",
+        "rumble",
+        "scientific"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/passive_filter/passive_filter.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "patch",
+      "label": "Patch",
+      "category": "object",
+      "categoryLabel": "Object",
+      "description": "Patch identity plate. Name, bank, program, tags, author, and description live here — one per patch.",
+      "notes": [
+        "patch info",
+        "name",
+        "bank",
+        "program",
+        "description",
+        "unique",
+        "annotation"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "percussion",
+      "label": "Percussion (10)",
+      "category": "sample",
+      "categoryLabel": "Sample Player",
+      "description": "Placeholder GM percussion / drum kit on channel 10 (under construction).",
+      "notes": [
+        "under construction",
+        "sample",
+        "percussion",
+        "drums",
+        "GM",
+        "channel 10",
+        "midi",
+        "soundfont"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "phaseDisperse",
+      "label": "Phase Disperse",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Cascade allpass smear—group-delay wash without changing magnitude.",
+      "notes": [
+        "allpass",
+        "group delay",
+        "disperser",
+        "scientific",
+        "phase",
+        "cpu"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "phaser",
+      "label": "Phaser",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "Placeholder classic modulated phaser FX.",
+      "notes": [
+        "under construction",
+        "phaser",
+        "allpass",
+        "modulation",
+        "analog"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "phoneTone",
+      "label": "Phone Tone",
+      "category": "object",
+      "categoryLabel": "Object",
+      "description": "DTMF phone tones from Analog 0–1 and/or Digital slot (same 12-key map as Keypad). Gate opens the tone. Pitch Offset + 0.1V/Oct transpose both tones. Tone = sum. ƒ1/ƒ2 = pitched Hz. Analog/Digital Thru pass the ins.",
+      "notes": [
+        "dtmf",
+        "phone",
+        "tone",
+        "keypad",
+        "robin",
+        "object",
+        "pitch",
+        "0.1v"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "phosphillator",
+      "label": "Phosphillator",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Placeholder Phosphillator — draw a shape and play it back as X/Y motion.",
+      "notes": [
+        "under construction",
+        "freehand draw",
+        "phosphor",
+        "xy oscillator",
+        "papoulis smoothing"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/phosphillator/phosphillator.cpp",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "phosphorLight",
+      "label": "2D Phosphor (legacy)",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Legacy alias of 2D Phosphor—use scope2d for new patches.",
+      "notes": [
+        "legacy",
+        "migrates to scope2d",
+        "hidden"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "pingPongDelay",
+      "label": "Ping Pong Delay",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Stereo bouncing delay with tempo tools and independent L/R motion.",
+      "notes": [
+        "ping pong",
+        "tempo sync",
+        "numer/denom",
+        "parabol",
+        "random walk",
+        "fbm",
+        "tape",
+        "soft clip",
+        "passive filter"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/ping_pong_delay/ping_pong_delay.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "piSpigotNoise",
+      "label": "Pi Spigot Noise",
+      "category": "noise",
+      "categoryLabel": "Noise",
+      "description": "Live BBP four-phase π walk: Sum/Term audio, latched hex bits for rhythm. No digit file.",
+      "notes": [
+        "bbp",
+        "pi",
+        "hex",
+        "bits",
+        "sum",
+        "term",
+        "spigot",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/pi_spigot_noise/pi_spigot_noise.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "pitchModWheel",
+      "label": "Pitch Mod Wheel",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Read pitch bend and mod wheel next to the keyboard for expression.",
+      "notes": [
+        "pitch wheel",
+        "mod wheel",
+        "performance control"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "pitchQuantizer",
+      "label": "Pitch Quantizer",
+      "category": "musical",
+      "categoryLabel": "Musical",
+      "description": "Snap free pitch CV to a scale so walkers and LFOs land on musical notes.",
+      "notes": [
+        "quantizer",
+        "scale keyboard",
+        "0.1v/oct",
+        "pitch class mask",
+        "melody from chaos"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/pitch_quantizer/pitch_quantizer.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "pixelGrid",
+      "label": "PixelGrid",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Play with pixel-grid looks—strokes, bevels, and lo-fi screen craft.",
+      "notes": [
+        "under construction",
+        "pixel grid",
+        "rgb",
+        "bevel",
+        "stroke",
+        "3d pixel",
+        "pixel experiments"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "pll",
+      "label": "PLL",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Lock a VCO to an input (Doepfer-style PLL)—tracking tones and lock gates.",
+      "notes": [
+        "phase locked loop",
+        "A-196",
+        "vco",
+        "frequency tracking"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/pll/pll.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "pluckEnvelope",
+      "label": "Pluck Envelope",
+      "category": "envelope",
+      "categoryLabel": "Envelope",
+      "description": "Fast pluck contour for picks, pings, and percussive decays.",
+      "notes": [
+        "trigger input",
+        "decay energy",
+        "auto release",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/pluck_envelope/pluck_envelope.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "pluginInput",
+      "label": "Plugin Input",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Clear stereo audio entry point when designing a plugin-style front end.",
+      "notes": [
+        "plugin",
+        "audio input",
+        "stereo"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "pluginMidiIn",
+      "label": "Plugin MIDI In",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Keyboard/MIDI → gate, note, velocity, and 0.1V/oct for playable patches.",
+      "notes": [
+        "plugin",
+        "midi input",
+        "note",
+        "gate"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "pluginMidiOut",
+      "label": "Plugin MIDI Out",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Send/monitor MIDI note+gate for external gear or host MIDI outs.",
+      "notes": [
+        "plugin",
+        "midi output"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "pluginOutput",
+      "label": "Plugin Output",
+      "category": "portal",
+      "categoryLabel": "Portals",
+      "description": "Clear stereo exit next to classic Output for host/plugin boundaries.",
+      "notes": [
+        "plugin",
+        "audio output",
+        "stereo"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "pluginSlider",
+      "label": "Slider",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Vertical Bias control on the face—performance levels and slow rides.",
+      "notes": [
+        "plugin",
+        "fader",
+        "slider",
+        "bias",
+        "display",
+        "control"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "polyBlep",
+      "label": "PolyBLEP",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Clean multi-wave oscillator when you want saw/square/tri/sine without harsh aliasing.",
+      "notes": [
+        "anti-aliasing",
+        "polyblep",
+        "realtime oscillator"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/polyblep/polyblep.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "polyblep",
+        "reverb"
+      ]
+    },
+    {
+      "type": "previousPatch",
+      "label": "Previous Patch",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Trigger to load the previous saved patch—setlist / kiosk navigation.",
+      "notes": [
+        "patch navigation",
+        "trigger input",
+        "music player"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "pulseExplosion",
+      "label": "Pulse Explosion",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "On trigger, spray many micro-pulses over time—glitch rain and density hits.",
+      "notes": [
+        "trigger burst",
+        "skewed distribution",
+        "randomized amplitude"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/pulse_explosion/pulse_explosion.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "quadrature",
+      "label": "Quadrature",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "IIR quadrature pair (I / +90° Q). Low-latency Hilbert-class phase tool — no host delay compensation.",
+      "notes": [
+        "quadrature",
+        "hilbert",
+        "90",
+        "phase",
+        "iir",
+        "side",
+        "mid",
+        "scientific",
+        "allpass pair"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "radar",
+      "label": "Jerobeam Radar",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Placeholder Jerobeam Radar motion—reserved for future sweep/path engine.",
+      "notes": [
+        "placeholder",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_radar/jerobeam_radar.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "randomClock",
+      "label": "Random Clock",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Irregular triggers with duty control—organic rhythm, humanized gates, surprise hits.",
+      "notes": [
+        "random timing",
+        "trigger and gate outputs",
+        "reset input"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/random_clock/random_clock.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "randomWalk",
+      "label": "Random Walk",
+      "category": "modulator",
+      "categoryLabel": "Modulator",
+      "description": "Controlled wander CV—smooth drift, steps, or filtered noise motion for parameters.",
+      "notes": [
+        "bounded walk",
+        "jitter walk",
+        "one-pole smoothing",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/random_walk/random_walk.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "rasterRgb",
+      "label": "Pixel Grid",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Analog RGB color-corrector and rolling framebuffer. Invert, contrast, brightness, and hue land on R/G/B/📺 outs.",
+      "notes": [
+        "pixel grid",
+        "raster",
+        "framebuffer",
+        "rgb",
+        "hue",
+        "color correct",
+        "tv"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/raster_rgb/raster_rgb.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "rayBouncer",
+      "label": "Ray Bouncer",
+      "category": "chaos",
+      "categoryLabel": "Chaos",
+      "description": "RS-MET Ray Bouncer in solid shell: particle reflecting inside an ellipse. Short Rs reset jack, X/Y phosphor face, full parameter bank below.",
+      "notes": [
+        "solid module",
+        "ellipse billiard",
+        "X/Y phosphor",
+        "RS-MET",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/ray_bouncer/ray_bouncer.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET/blob/work/Libraries/RobsJuceModules/rapt/Generators/RayBouncer.h",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "resonatorFilter",
+      "label": "Resonator Filter",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "Chaotic dual-phasor resonator for wild FM-ish filter voices.",
+      "notes": [
+        "dual-phasor FM",
+        "3 waveform modes",
+        "chaotic",
+        "analog"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/resonator_filter/resonator_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "reverbEffect",
+      "label": "Sabrina Reverb",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Sabrina reverb wash—diffusion, recycle, and mix for space.",
+      "notes": [
+        "Sabrina",
+        "serial diffusion",
+        "cross feedback",
+        "seed",
+        "Dry L",
+        "Dry R",
+        "Wet L",
+        "Wet R"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/sabrina_reverb/sabrina_reverb.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "reverb",
+        "silently-dreaming"
+      ]
+    },
+    {
+      "type": "rgbaHsla",
+      "label": "RGBA / HSLA",
+      "category": "rgba",
+      "categoryLabel": "Shader",
+      "description": "Precise RGB/HSL screen wash color for intentional lighting.",
+      "notes": [
+        "under construction",
+        "visual sink",
+        "rgb channels",
+        "hsla control"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "rgbFractal",
+      "label": "Soft Fractal",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Julia face with pure planetary c(t). Outs Hx/Hy = chaotic map z←z²+c. Depth = face iteration detail. No multi-sine wander — modulate C / Orbit Size / Orbit Speed / Speed externally.",
+      "notes": [
+        "rgb",
+        "julia",
+        "webgl",
+        "planetary",
+        "orbit",
+        "orbit speed",
+        "map oscillator",
+        "LayoutA",
+        "hx",
+        "hy",
+        "parameter c",
+        "pan",
+        "soft",
+        "bands",
+        "depth",
+        "detail",
+        "downsample",
+        "pixel",
+        "pixel grid",
+        "lofi",
+        "rotation",
+        "rotation speed",
+        "color shift",
+        "gradient"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "rgbPicture",
+      "label": "Picture",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Load an SVG or image onto the face (same idea as Knob face art). Width/height/x/y are center-based. In → Out passthrough. Pick the file in Display Settings.",
+      "notes": [
+        "rgb",
+        "svg",
+        "image",
+        "LayoutB",
+        "visual sink"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "rgbShape",
+      "label": "Shape",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Draw a gradient-colored shape on the face: position samples the gradient; width/height/x/y are center-based; shape choices include square, circle, triangle, star, diamond. In → Out passthrough.",
+      "notes": [
+        "rgb",
+        "gradient shape",
+        "LayoutB",
+        "visual sink"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "robinSinusoid",
+      "label": "RobinSinusoid",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Ultra-cheap recursive sine when you want steady tone with almost no CPU cost.",
+      "notes": [
+        "RS-MET",
+        "rosic",
+        "recursive sine",
+        "self-oscillating",
+        "sinusoid"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/robin_sinusoid/robin_sinusoid.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET/blob/work/Libraries/RobsJuceModules/rosic/generators/rosic_SineOscillator.h",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "robinSupersaw",
+      "label": "RobinSupersaw",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Detuned multi-saw wall with pitch dither—huge pads and trance supersaws.",
+      "notes": [
+        "oscillator",
+        "supersaw",
+        "pitch dithering",
+        "anti-aliasing",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/robin_supersaw/robin_supersaw.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "rotate3dTo2d",
+      "label": "Rotation 3D to 2D",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Spin X/Y/Z points then project to 2D for scope art and stereo transforms.",
+      "notes": [
+        "3D rotation",
+        "2D projection",
+        "signal transform",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/rotate_3d_to_2d/rotate_3d_to_2d.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sampleDelay",
+      "label": "Sample Delay",
+      "category": "utility",
+      "categoryLabel": "Utility",
+      "description": "Precise dry/wet delay in time or samples for comb, predelay, or synced echos.",
+      "notes": [
+        "delay",
+        "samples",
+        "time",
+        "thru",
+        "delayed",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/sample_delay/sample_delay.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sampleHold",
+      "label": "Sample & Hold",
+      "category": "modulator",
+      "categoryLabel": "Modulator",
+      "description": "Grab a value on trigger and freeze it—stepped random, stepped automation.",
+      "notes": [
+        "triggered capture",
+        "held output",
+        "stepped motion"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/sample_hold/sample_hold.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sampleLooper",
+      "label": "Sample Looper",
+      "category": "sample",
+      "categoryLabel": "Sample Player",
+      "description": "Gated stereo looping sample player with bounds, pitch, and seam crossfade.",
+      "notes": [
+        "sample playback",
+        "loop",
+        "audio source",
+        "stereo"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "samplePlayer",
+      "label": "Sample Player",
+      "category": "sample",
+      "categoryLabel": "Sample Player",
+      "description": "One-shot stereo samples on trigger—hits, stabs, and short clips.",
+      "notes": [
+        "sample playback",
+        "one shot",
+        "audio source",
+        "stereo"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sandboxVisuals",
+      "label": "Screen Visuals",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Drive screen shake, dim, color, and scope pause from the patch.",
+      "notes": [
+        "visual sink",
+        "shake input",
+        "scope pause"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "scope2d",
+      "label": "2D Phosphor",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "X/Y phosphor energy trail—the standard attractor/laser-style path face.",
+      "notes": [
+        "2D Phosphor",
+        "xy phosphor",
+        "energy drawer",
+        "brightness",
+        "trail",
+        "burn"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "scope2dTrace",
+      "label": "2D Trace",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Instant X/Y vector history without phosphor—crisp 2D traces.",
+      "notes": [
+        "xy trace",
+        "sample history",
+        "2D oscilloscope"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "screenSpaceShader",
+      "label": "Screen Space Shader",
+      "category": "rgba",
+      "categoryLabel": "Shader",
+      "description": "Script custom screen effects from declared inputs.",
+      "notes": [
+        "under construction",
+        "scripted visual sink",
+        "custom inputs",
+        "screen shader controls"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "shootingStarExplosion",
+      "label": "Shooting Star Explosion",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Website shooting-star hits as scaled triggers for FX or visuals.",
+      "notes": [
+        "game trigger",
+        "shooting star",
+        "website bridge",
+        "power scaled pulse",
+        "low/high range"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/shooting_star_explosion/shooting_star_explosion.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "shootingstar",
+        "silently-dreaming"
+      ]
+    },
+    {
+      "type": "shootingStarTail",
+      "label": "Shooting Star Tail",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Placeholder for shooting-star trail events.",
+      "notes": [
+        "placeholder",
+        "game trigger",
+        "shooting star"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "simulationTime",
+      "label": "⏱ Sim Time",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Shows how many sample-rate seconds have been processed (Planck 1e-7). A is a per-sample gate.",
+      "notes": [
+        "simulation time",
+        "sim time",
+        "seconds",
+        "planck",
+        "gate"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sinc",
+      "label": "Sinc",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Impulse-like sinc tones for modulation sources or teaching resampling / band-limit ideas.",
+      "notes": [
+        "sinc",
+        "sin(x)/x",
+        "impulse",
+        "oscillator"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/sinc/sinc.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sineKick",
+      "label": "Sine Kick",
+      "category": "drum",
+      "categoryLabel": "Drum",
+      "description": "Analog sine kick: T fires a decaying sine. Pitch, Punch, Decay, Sharpness (sine→square). Out is audio; A is the envelope.",
+      "notes": [
+        "drum",
+        "kick",
+        "sine",
+        "thump",
+        "trigger",
+        "punch",
+        "sharpness",
+        "percussion"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sinepulse",
+      "label": "Sinepulse",
+      "category": "drum",
+      "categoryLabel": "Drum",
+      "description": "Sine zap/chirp drum—electro kicks, risers, and swept sine hits.",
+      "notes": [
+        "drum",
+        "percussion",
+        "chirp",
+        "sine sweep",
+        "period reset",
+        "sweep",
+        "kick",
+        "zap",
+        "pulse",
+        "sine",
+        "high low",
+        "antialias",
+        "pitch dither"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "sineWavetable",
+      "label": "SinCos",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Straightforward pitchable sin/cos voice when you need a clean table sine with amplitude control.",
+      "notes": [
+        "implemented",
+        "wavetable",
+        "sin/cos",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/sine_wavetable/sine_wavetable.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "sinewave"
+      ]
+    },
+    {
+      "type": "slewLimiter",
+      "label": "Slew",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Hard up/down rate limit with Lin / Log / Exp / Smooth curves for steps and CV glides.",
+      "notes": [
+        "up time",
+        "down time",
+        "asymmetric glide",
+        "rate limit",
+        "slew",
+        "portamento",
+        "dynamics",
+        "log",
+        "exp",
+        "smooth"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/slew_limiter/slew_limiter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "snowflake",
+      "label": "Snowflake",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Fractal turtle paths as stereo X/Y—ornamental motion and strange stereo voices.",
+      "notes": [
+        "L-system",
+        "turtle",
+        "Koch",
+        "fractal pattern synthesis",
+        "RS-MET",
+        "X/Y",
+        "native",
+        "wasm"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/snowflake/snowflake.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "soemReverb",
+      "label": "SoEmReverb",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Full SoEm reverb with echo modes, filters, ducking, and dry/wet stereo outs.",
+      "notes": [
+        "soemdsp",
+        "ModulatedDelay",
+        "tempo sync",
+        "PostDelay",
+        "PreDelay",
+        "Slapback",
+        "native",
+        "trace",
+        "Dry L",
+        "Dry R",
+        "Wet L",
+        "Wet R"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/soem_reverb/soem_reverb.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "softClipper",
+      "label": "Soft Clipper",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Gentle saturation/limiting when peaks need taming without hard digital clip.",
+      "notes": [
+        "soft clipping",
+        "tanh",
+        "gain",
+        "ADAA",
+        "dynamics"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/soft_clipper/soft_clipper.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "softpopOscillator",
+      "label": "Softpop Oscillator",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Noise through a resonant peak BP—softpop-style pitchable noise voice.",
+      "notes": [
+        "softpop",
+        "noise oscillator",
+        "band noise",
+        "gaussian",
+        "pink",
+        "brown",
+        "bandpass",
+        "resonant",
+        "seed",
+        "reset",
+        "stereo",
+        "mono"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "softwaveOsc",
+      "label": "Softwave Oscillator",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Soft-shaped multi-wave voice when you want warm morphing waves, not a distortion box.",
+      "notes": [
+        "softwave",
+        "tube",
+        "tanh",
+        "morph",
+        "analog waves",
+        "walter"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/softwave/softwave.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "speakerProtection",
+      "label": "Speaker Protection",
+      "category": "debug",
+      "categoryLabel": "Debug",
+      "description": "Hard trip if |sample| > 1—protect ears/speakers while debugging.",
+      "notes": [
+        "speaker safety",
+        "ear protection",
+        "hard limit"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "speakerProtector2",
+      "label": "Speaker Protector 2.0",
+      "category": "debug",
+      "categoryLabel": "Debug",
+      "description": "Slew mute: trip → drop to 0 → hold 0.333 s → slow rise. Same circuit as the Output bus protector.",
+      "notes": [
+        "speaker protection",
+        "slew",
+        "mute",
+        "hold",
+        "VCA",
+        "safety"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "spectrogram",
+      "label": "Spectrogram",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "See frequency content over time (STFT) while passing audio through.",
+      "notes": [
+        "fft",
+        "spectrum",
+        "frequency waterfall",
+        "spectral display",
+        "thru"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "speedColorInertia",
+      "label": "Speed Color Inertia",
+      "category": "multimeter",
+      "categoryLabel": "Multimeter",
+      "description": "Turn signal speed into color desaturation—visual edge energy meters.",
+      "notes": [
+        "multimeter",
+        "speed",
+        "slope",
+        "inertia",
+        "saturation",
+        "color",
+        "solid face",
+        "audiovisual",
+        "sine red",
+        "saw white"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "spiral",
+      "label": "Jerobeam Spiral",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Jerobeam spiral X/Y/Z motion for scopes, lasers, and audiovisual flight paths.",
+      "notes": [
+        "attractor motion",
+        "rotation",
+        "density and morph controls",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_spiral/jerobeam_spiral.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "stepGrid",
+      "label": "Step Grid",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Gate sequencer with a click-to-toggle grid, 1-16 steps. Advance it with Clock; Gate fires only on steps you've switched on.",
+      "notes": [
+        "trigger input",
+        "reset input",
+        "gate pattern",
+        "click grid",
+        "variable steps"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "stepSequencer",
+      "label": "Step Sequencer",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Classic stepped values under clock—melodies, parameter automation, and rhythmic CV.",
+      "notes": [
+        "trigger input",
+        "reset input",
+        "stepped modulation"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/step_sequencer/step_sequencer.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "stftBlur",
+      "label": "STFT Blur",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Spectral blur wash—clouds and smears in time/frequency.",
+      "notes": [
+        "STFT",
+        "spectral",
+        "blur",
+        "FFT",
+        "space"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "superloveFilter",
+      "label": "SuperLove Filter",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "Warm self-oscillating ladder-ish resonator for bass-heavy love tones.",
+      "notes": [
+        "trisaw oscillator",
+        "4 modes",
+        "stable self-oscillation",
+        "analog"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/superlove_filter/superlove_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "surgeOscillator",
+      "label": "Surge Oscillator",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Hard-sync multi-wave oscillator for aggressive locked-tone leads and bass.",
+      "notes": [
+        "oscillator",
+        "hard sync",
+        "polyblep",
+        "anti-aliasing",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/surge_oscillator/surge_oscillator.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "surgeoscillator"
+      ]
+    },
+    {
+      "type": "t",
+      "label": "t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "One transistor. Digital 0 sends In (open In = 1); analog 0–1 is conduction.",
+      "notes": [
+        "transistor",
+        "t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t1",
+      "label": "1t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Two transistor paths (0, 1). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "1t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t10",
+      "label": "10t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Eleven transistor paths (0–10). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "10t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t2",
+      "label": "2t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Three transistor paths (0, 1, 2). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "2t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t3",
+      "label": "3t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Four transistor paths (0–3). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "3t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t4",
+      "label": "4t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Five transistor paths (0–4). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "4t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t5",
+      "label": "5t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Six transistor paths (0–5). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "5t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t6",
+      "label": "6t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Seven transistor paths (0–6). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "6t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t7",
+      "label": "7t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Eight transistor paths (0–7). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "7t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t8",
+      "label": "8t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Nine transistor paths (0–8). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "8t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "t9",
+      "label": "9t",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Ten transistor paths (0–9). Digital one-hot; analog 0–1 crossfades. Open In = 1.",
+      "notes": [
+        "transistor",
+        "9t"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "tb303Filter",
+      "label": "TB-303 Filter",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "303-style acid ladder character for squelchy basses and leads.",
+      "notes": [
+        "feedback highpass",
+        "resonance skewed",
+        "15 modes",
+        "character",
+        "Robin Schmidt",
+        "analog"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/tb303_filter/tb303_filter.cpp",
+      "libUrl": "https://github.com/RobinSchmidt/RS-MET",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "textBox",
+      "label": "Text Box",
+      "category": "object",
+      "categoryLabel": "Object",
+      "description": "Static in-world label for notes, lore, and instructions on the patch.",
+      "notes": [
+        "annotation",
+        "layout",
+        "field notes"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "textStream",
+      "label": "Text Stream",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Type once, emit characters over time—serial text into matrix faces.",
+      "notes": [
+        "serial",
+        "character",
+        "digital",
+        "text box"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "theremin",
+      "label": "Theremin",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Placeholder space-controlled pitch/volume controller.",
+      "notes": [
+        "under construction",
+        "theremin",
+        "controller",
+        "proximity",
+        "pitch",
+        "performance"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "tiltFilter",
+      "label": "Tilt Filter",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Pivot bright/dark balance without a hard cut—quick spectral posture.",
+      "notes": [
+        "tilt",
+        "shelf",
+        "tone balance",
+        "first order",
+        "Robin Schmidt",
+        "RS-MET",
+        "scientific"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "toggleButton",
+      "label": "Toggle",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "Latching on/off for mutes, mode switches, and held gates.",
+      "notes": [
+        "plugin",
+        "toggle",
+        "latch",
+        "button",
+        "switch"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "torus",
+      "label": "Jerobeam Torus",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Placeholder Jerobeam Torus motion—reserved for future 3D-path engine.",
+      "notes": [
+        "placeholder",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_torus/jerobeam_torus.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "traceDisplay",
+      "label": "1D Trace",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Clean 1D vector waveform—see the signal shape without phosphor hang.",
+      "notes": [
+        "1D Trace",
+        "waveform",
+        "display testbed",
+        "input trace"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "traceDisplayStereo",
+      "label": "1D Trace Stereo",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Output-style stereo 1D Trace—Left/Right colors, Meet blend, and sync on their own face.",
+      "notes": [
+        "1D Trace",
+        "stereo",
+        "left",
+        "right",
+        "meet",
+        "output display",
+        "waveform",
+        "display testbed"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "traceXyz",
+      "label": "XYZ Trace",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Three history traces: X red, Y blue, Z green. Stack on one plot or split the face into three bands.",
+      "notes": [
+        "xyz",
+        "rgb",
+        "trace",
+        "history",
+        "stack",
+        "separate",
+        "x red",
+        "y blue",
+        "z green"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "transport",
+      "label": "Master Clock",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "BPM-locked square clocks so everything stays in time with the project tempo.",
+      "notes": [
+        "master clock",
+        "transport",
+        "project BPM",
+        "beat divisions",
+        "engine-start phase"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/transport/transport.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "triggerCounter",
+      "label": "Trigger Counter",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Count pulses and wrap—use for bars, loops, or stepped modulation from rhythm.",
+      "notes": [
+        "count pulses",
+        "wrap output",
+        "reset input"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/trigger_counter/trigger_counter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "triggerDivider",
+      "label": "Trigger Divider",
+      "category": "clock",
+      "categoryLabel": "Time",
+      "description": "Divide incoming triggers into slower clocks for sequences and envelopes.",
+      "notes": [
+        "trigger division",
+        "reset input",
+        "pulse width"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/trigger_divider/trigger_divider.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "turingMachine",
+      "label": "Turing Machine",
+      "category": "digital",
+      "categoryLabel": "Digital",
+      "description": "Evolving CV/melody register—semi-random sequences that slowly corrode over time.",
+      "notes": [
+        "generative",
+        "shift register",
+        "scale mask",
+        "pitch from scale"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/turing_machine/turing_machine.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "u2b",
+      "label": "U2B",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Unipolar 0…1 to bipolar −1…1 (out = 2·in − 1).",
+      "notes": [
+        "unipolar",
+        "bipolar",
+        "convert",
+        "range",
+        "0 to 1",
+        "minus 1 to 1",
+        "utility"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/u2b/u2b.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "vactrolEnvelopeCustom",
+      "label": "Vactrol",
+      "category": "envelope",
+      "categoryLabel": "Envelope",
+      "description": "Roll-your-own optical lag envelope when no stock vactrol fits.",
+      "notes": [
+        "light input",
+        "custom vactrol",
+        "dark current",
+        "native"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": [
+        "shootingstar"
+      ]
+    },
+    {
+      "type": "vactrolEnvelopeSeries",
+      "label": "VTL5C",
+      "category": "envelope",
+      "categoryLabel": "Envelope",
+      "description": "Named vactrol timings—optical lag character from real VTL parts.",
+      "notes": [
+        "light input",
+        "part switch",
+        "dark current",
+        "native"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "valueLcd",
+      "label": "Value LCD",
+      "category": "multimeter",
+      "categoryLabel": "Multimeter",
+      "description": "Value LCD: grey plate, dark ink DSEG digits, faint always-on segments (Ghost) + previous-value Trail. Cheap reflective LCD look. Search: value, LCD, multimeter.",
+      "notes": [
+        "value",
+        "value lcd",
+        "lcd readout",
+        "value display",
+        "numeric display",
+        "digital readout",
+        "seven-segment",
+        "reflective",
+        "ghost",
+        "trail",
+        "DSEG7",
+        "multimeter"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "valueOscilloscope",
+      "label": "0D Value",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "Latest sample as one horizontal line—ultra-simple level glance.",
+      "notes": [
+        "value display",
+        "horizontal line",
+        "latest value"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "vectorRgb",
+      "label": "Vector RGB",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "X/Y phosphor path colored by analog R/G/B — three-channel beam, no brightness LUT.",
+      "notes": [
+        "xy",
+        "rgb",
+        "phosphor",
+        "beam",
+        "blank"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "vectorscopeTransform",
+      "label": "Vectorscope Rotation",
+      "category": "dynamics",
+      "categoryLabel": "Dynamics",
+      "description": "Rotate stereo so mono stands vertical—classic vectorscope / balance view. Rotate dials extra angle (−180…+180°).",
+      "notes": [
+        "vectorscope",
+        "vectorscope rotation",
+        "rotate",
+        "goniometer",
+        "phase scope",
+        "stereo image",
+        "mid side",
+        "L R",
+        "X Y",
+        "signal transform",
+        "native"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/vectorscope_transform/vectorscope_transform.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "videoscope",
+      "label": "Videoscope",
+      "category": "rgb",
+      "categoryLabel": "RGB",
+      "description": "Triggered dual-channel scope (A/B) with freeze—stable waveforms of audio.",
+      "notes": [
+        "oscilloscope",
+        "trigger",
+        "dot",
+        "line",
+        "xy",
+        "native",
+        "phosphor display"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/videoscope/videoscope.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "visualOscilloscope",
+      "label": "Display",
+      "category": "oscilloscope",
+      "categoryLabel": "Oscilloscope",
+      "description": "One multi-mode display face (1D/2D trace or phosphor) for quick inspection.",
+      "notes": [
+        "multi-mode",
+        "2D Trace",
+        "2D Phosphor",
+        "1D Trace",
+        "1D Phosphor",
+        "Phosphor Dot",
+        "visual sink"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "wallDelay",
+      "label": "Wall Delay",
+      "category": "space",
+      "categoryLabel": "Space",
+      "description": "Placeholder geometric room/wall delay from superellipsoid rays.",
+      "notes": [
+        "under construction",
+        "wall geometry",
+        "binaural",
+        "wall verb"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/wall_delay/wall_delay.cpp",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "waveguide",
+      "label": "Waveguide",
+      "category": "scientificFilter",
+      "categoryLabel": "Scientific Filter",
+      "description": "Placeholder full waveguide (use Comb/Mode resonators for working resonance now).",
+      "notes": [
+        "under construction",
+        "waveguide",
+        "placeholder",
+        "physical modeling",
+        "dispersion",
+        "scientific"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "wavetable2d",
+      "label": "Wavetable2D",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Placeholder: multi-frame 2D wavetable morph—use later for evolving table tones.",
+      "notes": [
+        "under construction",
+        "wavetable",
+        "2d",
+        "morph",
+        "oscillator",
+        "frame"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "wavetable3d",
+      "label": "Wavetable3D",
+      "category": "oscillator",
+      "categoryLabel": "Oscillator",
+      "description": "Placeholder: dual-axis morph wavetable—use later for deep table morphs.",
+      "notes": [
+        "under construction",
+        "wavetable",
+        "3d",
+        "morph",
+        "volume",
+        "oscillator"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": true,
+      "patches": []
+    },
+    {
+      "type": "windowReopen",
+      "label": "Window Reopen",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Pulse when a floating window is re-opened—attention/glow feedback hooks.",
+      "notes": [
+        "game trigger",
+        "window attention",
+        "green glow"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "wirdoSpiral",
+      "label": "Jerobeam WirdoSpiral",
+      "category": "jerobeam",
+      "categoryLabel": "Jerobeam",
+      "description": "Placeholder Jerobeam WirdoSpiral—reserved for future wild spiral engine.",
+      "notes": [
+        "placeholder",
+        "jerobeam"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/jerobeam_wirdo_spiral/jerobeam_wirdo_spiral.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "wireBreak",
+      "label": "Wire Break",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Fire when a wire snaps—FX hits, animations, or chaos when the patch breaks.",
+      "notes": [
+        "game trigger",
+        "wire break",
+        "physics violation"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "wireConnect",
+      "label": "Wire Connect",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Pulse on new connections—acknowledge patches or start one-shots on plug-in.",
+      "notes": [
+        "game trigger",
+        "wire connect",
+        "patch editing"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "wireDisconnect",
+      "label": "Wire Disconnect",
+      "category": "gametrigger",
+      "categoryLabel": "Game Triggers",
+      "description": "Pulse on disconnects—cleanup gates or “unplug” sounds.",
+      "notes": [
+        "game trigger",
+        "wire disconnect",
+        "patch editing"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "xyPad",
+      "label": "XY Pad",
+      "category": "controller",
+      "categoryLabel": "Controllers",
+      "description": "XY pad: mouse + CV into audio path (smoothing on/off, lattice order). Separate invertible X/Y amplitudes, finer around 0. Bipolar outs, Gate/Spike. Puck UI-only; phosphor follows audio.",
+      "notes": [
+        "solid custom module",
+        "XY bipolar −1…+1",
+        "separate X/Y amplitude invert",
+        "audio smoothing on signal path",
+        "Filter Order: Smooth→Lattice or Lattice→Smooth",
+        "Pause On Lift / Return To Center",
+        "Gate hold + Spike pulse",
+        "puck UI / phosphor audiovisual"
+      ],
+      "native": false,
+      "sourceUrl": "",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    },
+    {
+      "type": "yellowjacketFilter",
+      "label": "Yellowjacket Filter",
+      "category": "analogFilter",
+      "categoryLabel": "Analog Filter",
+      "description": "Grindy feedback ellipse filter—square-ish harsh resonance colors.",
+      "notes": [
+        "ellipse oscillator",
+        "feedback FM",
+        "grindy",
+        "analog"
+      ],
+      "native": true,
+      "sourceUrl": "https://github.com/soundemote/soemdsp-sandbox/blob/master/native_modules/yellowjacket_filter/yellowjacket_filter.cpp",
+      "libUrl": "",
+      "underConstruction": false,
+      "patches": []
+    }
+  ],
+  "patches": [
+    {
+      "slug": "lcd",
+      "title": "lcd",
+      "description": "",
+      "url": "/patches/lcd.json",
+      "modules": []
+    },
+    {
+      "slug": "polyblep",
+      "title": "polyblep",
+      "description": "A classic band-limited (PolyBLEP) square wave oscillator.",
+      "url": "/patches/polyblep.json",
+      "modules": [
+        "output",
+        "polyBlep"
+      ]
+    },
+    {
+      "slug": "reverb",
+      "title": "ellipsoid",
+      "description": "",
+      "url": "/patches/reverb.json",
+      "modules": [
+        "fractalBrownianNoise",
+        "output",
+        "polyBlep",
+        "reverbEffect"
+      ]
+    },
+    {
+      "slug": "sandbox",
+      "title": "sandbox",
+      "description": "",
+      "url": "/patches/sandbox.json",
+      "modules": [
+        "audioPlayer",
+        "output"
+      ]
+    },
+    {
+      "slug": "shootingstar",
+      "title": "ellipsoid",
+      "description": "",
+      "url": "/patches/shootingstar.json",
+      "modules": [
+        "lorenzAttractor",
+        "output",
+        "shootingStarExplosion",
+        "vactrolEnvelopeCustom"
+      ]
+    },
+    {
+      "slug": "silently-dreaming",
+      "title": "ellipsoid",
+      "description": "",
+      "url": "/patches/silently-dreaming.json",
+      "modules": [
+        "audioPlayer",
+        "output",
+        "reverbEffect",
+        "shootingStarExplosion"
+      ]
+    },
+    {
+      "slug": "sinewave",
+      "title": "sinewave",
+      "description": "The simplest possible oscillator: one sine wave.",
+      "url": "/patches/sinewave.json",
+      "modules": [
+        "output",
+        "sineWavetable"
+      ]
+    },
+    {
+      "slug": "surgeoscillator",
+      "title": "surgeoscillator",
+      "description": "Anti-aliased hard-sync oscillator with an internal sync source.",
+      "url": "/patches/surgeoscillator.json",
+      "modules": [
+        "output",
+        "surgeOscillator"
+      ]
+    }
+  ]
+}
