@@ -120,6 +120,11 @@ const App = () => (
         <Route path="/modules" element={<ModulesIndexPage />} />
         <Route path="/module/:type" element={<ModulePage />} />
 
+        {/* Patch wiki articles from src/data/patchArticles.ts. The older bare
+            slugs (/sinewave, /polyblep, ...) still land on the front page via
+            siteConfig.frontPageRoutes -- this namespace is additive. */}
+        <Route path="/article/:slug" element={<PatchArticlePage />} />
+
         <Route path="/avw-research" element={<AVWResearch />} />
         <Route path="/webring" element={<WebringPage />} />
         <Route path="/supabase-test" element={<SupabaseTest />} />
