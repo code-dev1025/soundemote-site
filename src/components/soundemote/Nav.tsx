@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import ShareProjectDialog from "./ShareProjectDialog";
+import SiteSearch from "./SiteSearch";
 import { useAuth } from "@/hooks/useAuth";
 import soundemoteLogo from "@/assets/soundemote-logo.svg.asset.json";
 
@@ -165,8 +166,8 @@ export const Nav = () => {
         </a>
       </div>
       <div className="z-10 flex items-center gap-4">
-
-
+        {/* Site-wide search. Also opens on Cmd/Ctrl-K or "/" from anywhere. */}
+        <SiteSearch />
 
         <a
           href="https://github.com/soundemote"
