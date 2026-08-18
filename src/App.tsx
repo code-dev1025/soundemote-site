@@ -12,6 +12,8 @@ import ScopeScratchPage from "./pages/ScopeScratchPage.tsx";
 import GradientCurvePage from "./pages/GradientCurvePage.tsx";
 import SandboxPage from "./pages/SandboxPage.tsx";
 import PatchArticlePage from "./pages/PatchArticlePage.tsx";
+import ModulePage from "./pages/ModulePage.tsx";
+import ModulesIndexPage from "./pages/ModulesIndexPage.tsx";
 import EmbedPage from "./pages/EmbedPage.tsx";
 import AVWResearch from "./pages/AVWResearch.tsx";
 import WebringPage from "./pages/WebringPage.tsx";
@@ -113,6 +115,11 @@ const App = () => (
 
         <Route path="/sandbox/:patch" element={<SandboxPage />} />
         <Route path="/sandbox/:user/:bank/:patch" element={<SandboxPage />} />
+        {/* Every module in the sandbox catalog gets a page of its own, and
+            /modules lists all of them by department. */}
+        <Route path="/modules" element={<ModulesIndexPage />} />
+        <Route path="/module/:type" element={<ModulePage />} />
+
         <Route path="/avw-research" element={<AVWResearch />} />
         <Route path="/webring" element={<WebringPage />} />
         <Route path="/supabase-test" element={<SupabaseTest />} />
