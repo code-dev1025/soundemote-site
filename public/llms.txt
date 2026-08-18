@@ -5,6 +5,8 @@
 ## Pages
 
 - [Home](/): Featured DSP article, hero sandbox, and project constellation.
+- [Search](/search?q=): Site-wide search over every module, patch, live demo, article, and wiki page. `?q=<term>` runs the query, e.g. `/search?q=bessel`.
+- [Module index](/modules): Every module in the soemdsp sandbox, grouped by department. Each module also has its own page at `/module/<type>` (e.g. `/module/polyBlep`, `/module/besselThomson`).
 - [Sandbox](/sandbox): In-browser modular audio-visual DSP sandbox.
 - [Wiki](/wiki): Index of DSP and audio-visual articles.
 - [Webring](/webring): Links to friends and adjacent creative-tech projects.
@@ -25,3 +27,16 @@
 
 - [Reverb](/reverb): Sabrina reverb patch in the sandbox.
 - [Shooting Star](/shootingstar): Chaos generator with a shooting-star explosion.
+
+## Patch wiki articles
+
+Each explains one patch or module in depth, at `/article/<slug>`:
+
+- [Sine Wave](/article/sinewave): The simplest patch in the sandbox.
+- [PolyBLEP](/article/polyblep): Anti-aliased square, the workhorse trick.
+- [DSF Oscillator](/article/dsf): A closed-form trick for a whole harmonic series.
+- [Surge Oscillator](/article/surgeoscillator): Hard sync without the alias war.
+- [Phosphillator](/article/phosphillator): An oscillator with a CRT's memory.
+- [Flower Child Filter](/article/flowerchildfilter): The analog-modeled sibling of an existing module.
+- [Shooting Star](/article/shootingstar): Chaos generator with a shooting-star explosion.
+- [Sandbox](/article/sandbox): What the sandbox is for.
