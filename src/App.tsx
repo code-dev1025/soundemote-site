@@ -12,6 +12,7 @@ import ScopeScratchPage from "./pages/ScopeScratchPage.tsx";
 import GradientCurvePage from "./pages/GradientCurvePage.tsx";
 import SandboxPage from "./pages/SandboxPage.tsx";
 import PatchArticlePage from "./pages/PatchArticlePage.tsx";
+import SearchPage from "./pages/SearchPage.tsx";
 import ModulePage from "./pages/ModulePage.tsx";
 import ModulesIndexPage from "./pages/ModulesIndexPage.tsx";
 import EmbedPage from "./pages/EmbedPage.tsx";
@@ -115,6 +116,9 @@ const App = () => (
 
         <Route path="/sandbox/:patch" element={<SandboxPage />} />
         <Route path="/sandbox/:user/:bank/:patch" element={<SandboxPage />} />
+        {/* Site-wide search, and the pages it points at. */}
+        <Route path="/search" element={<SearchPage />} />
+
         {/* Every module in the sandbox catalog gets a page of its own, and
             /modules lists all of them by department. */}
         <Route path="/modules" element={<ModulesIndexPage />} />
