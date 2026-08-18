@@ -20,7 +20,7 @@
 // If the host does NOT prioritize static files over the SPA catch-all, this
 // is a no-op: requests still resolve to the root index.html exactly as they
 // did before this script existed. No regression either way.
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -48,6 +48,60 @@ const PAGES = [
   { slug: "rsmet", title: "Robin Schmidt / RS-MET", tagline: "Pitch dithering, RAPT math, and the road toward a Synthwave Orchestra." },
 ];
 
+// Module reference pages (/module/<type>) and the patch wiki articles
+// (/article/<slug>) are generated rather than listed: there are 250+ of the
+// first and the second comes straight out of the same data the site renders.
+// Descriptions come from public/search/engine-index.json, written by
+// scripts/generate-search-index.mjs during prebuild.
+function generatedPages() {
+  const pages = [];
+
+  const indexFile = path.join(here, "..", "public", "search", "engine-index.json");
+  if (existsSync(indexFile)) {
+    const index = JSON.parse(readFileSync(indexFile, "utf8"));
+    for (const module of index.modules || []) {
+      pages.push({
+        slug: `module/${module.type}`,
+        title: module.label,
+        suffix: "soundemote module",
+        description:
+          module.description ||
+          `${module.label}, a ${module.categoryLabel} module in the soemdsp sandbox.`,
+      });
+    }
+  } else {
+    console.warn("[generate-og-pages] engine-index.json missing -- no module pages written");
+  }
+
+  // slug/title/tagline triples straight out of the patch article data file.
+  const articleFile = path.join(here, "..", "src", "data", "patchArticles.ts");
+  if (existsSync(articleFile)) {
+    const source = readFileSync(articleFile, "utf8");
+    const entryPattern =
+      /^\s{4}slug: "([a-z0-9-]+)",\s*\n\s{4}title: "([^"]*)",\s*\n\s{4}tagline: "([^"]*)",/gm;
+    const entries = [...source.matchAll(entryPattern)];
+    for (const [, slug, title, tagline] of entries) {
+      pages.push({ slug: `article/${slug}`, title, suffix: "soundemote wiki", description: tagline });
+    }
+    if (!entries.length) console.warn("[generate-og-pages] no article entries scraped from patchArticles.ts");
+  }
+
+  pages.push({
+    slug: "modules",
+    title: "Module index",
+    suffix: "soundemote",
+    description: "Every module in the soemdsp sandbox, by department — oscillators, filters, chaos, envelopes, scopes, RGB.",
+  });
+  pages.push({
+    slug: "search",
+    title: "Search",
+    suffix: "soundemote",
+    description: "Search every soemdsp module, patch, live demo, article and wiki page on soundemote.",
+  });
+
+  return pages;
+}
+
 function escapeHtml(value) {
   return value
     .replace(/&/g, "&amp;")
@@ -65,9 +119,19 @@ function main() {
     return;
   }
 
-  for (const page of PAGES) {
-    const title = `${escapeHtml(page.title)} — soundemote wiki`;
-    const description = escapeHtml(`${page.tagline} A soundemote.io patch wiki page.`);
+  const pages = [
+    ...PAGES.map((page) => ({
+      slug: page.slug,
+      title: page.title,
+      suffix: "soundemote wiki",
+      description: `${page.tagline} A soundemote.io patch wiki page.`,
+    })),
+    ...generatedPages(),
+  ];
+
+  for (const page of pages) {
+    const title = `${escapeHtml(page.title)} — ${page.suffix}`;
+    const description = escapeHtml(page.description);
     const url = `${siteUrl}/${page.slug}`;
 
     let html = template;
@@ -85,8 +149,8 @@ function main() {
     const outDir = path.join(distDir, page.slug);
     mkdirSync(outDir, { recursive: true });
     writeFileSync(path.join(outDir, "index.html"), html);
-    console.log(`[generate-og-pages] wrote dist/${page.slug}/index.html`);
   }
+  console.log(`[generate-og-pages] wrote ${pages.length} crawler-facing pages into dist/`);
 }
 
 main();

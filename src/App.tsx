@@ -12,6 +12,9 @@ import ScopeScratchPage from "./pages/ScopeScratchPage.tsx";
 import GradientCurvePage from "./pages/GradientCurvePage.tsx";
 import SandboxPage from "./pages/SandboxPage.tsx";
 import PatchArticlePage from "./pages/PatchArticlePage.tsx";
+import SearchPage from "./pages/SearchPage.tsx";
+import ModulePage from "./pages/ModulePage.tsx";
+import ModulesIndexPage from "./pages/ModulesIndexPage.tsx";
 import EmbedPage from "./pages/EmbedPage.tsx";
 import AVWResearch from "./pages/AVWResearch.tsx";
 import WebringPage from "./pages/WebringPage.tsx";
@@ -113,6 +116,19 @@ const App = () => (
 
         <Route path="/sandbox/:patch" element={<SandboxPage />} />
         <Route path="/sandbox/:user/:bank/:patch" element={<SandboxPage />} />
+        {/* Site-wide search, and the pages it points at. */}
+        <Route path="/search" element={<SearchPage />} />
+
+        {/* Every module in the sandbox catalog gets a page of its own, and
+            /modules lists all of them by department. */}
+        <Route path="/modules" element={<ModulesIndexPage />} />
+        <Route path="/module/:type" element={<ModulePage />} />
+
+        {/* Patch wiki articles from src/data/patchArticles.ts. The older bare
+            slugs (/sinewave, /polyblep, ...) still land on the front page via
+            siteConfig.frontPageRoutes -- this namespace is additive. */}
+        <Route path="/article/:slug" element={<PatchArticlePage />} />
+
         <Route path="/avw-research" element={<AVWResearch />} />
         <Route path="/webring" element={<WebringPage />} />
         <Route path="/supabase-test" element={<SupabaseTest />} />

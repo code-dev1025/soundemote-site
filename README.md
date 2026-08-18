@@ -6,6 +6,13 @@ like documentation than blog posts.
 
 ## What lives here
 
+- **Site-wide search** ([`src/search/`](src/search/)) — one box that answers
+  with everything: type `sine wave` and you get the sine oscillators, the
+  patches built from them, the live demo, and the article that explains the
+  physics. ⌘K / `/` from any page, or the full page at
+  [`/search`](src/pages/SearchPage.tsx). Every module has its own page at
+  [`/module/<type>`](src/pages/ModulePage.tsx); the whole catalog is at
+  [`/modules`](src/pages/ModulesIndexPage.tsx).
 - **The sandbox** ([`SandboxPage.tsx`](src/pages/SandboxPage.tsx)) — the
   soemdsp modular DSP engine, embedded live. Every signal on screen is an
   equation evaluated fresh every sample, not a recording — this is SVG for
@@ -42,6 +49,37 @@ styling, Supabase for auth/data.
 npm install
 npm run dev
 ```
+
+## Site-wide search
+
+Three moving parts:
+
+1. **The corpus** ([`src/search/sources.ts`](src/search/sources.ts)) — site
+   routes and live demos are bundled; module catalog, article bodies, article
+   sections, wiki pages and named patches load in the background on first use.
+   Adding a source means adding one builder function there.
+2. **The ranking** ([`src/search/engine.ts`](src/search/engine.ts)) — title →
+   keywords → subtitle → body, with camelCase splitting, plurals, one-typo
+   tolerance, and a DSP synonym table
+   ([`src/search/aliases.ts`](src/search/aliases.ts)) so `anti aliasing` finds
+   PolyBLEP and `linear phase` finds the Bessel filter. Expansions score at a
+   discount, so a literal hit always wins.
+3. **The generated index** (`public/search/engine-index.json`) — the vendored
+   sandbox engine's module catalog, flattened to JSON by
+   [`scripts/generate-search-index.mjs`](scripts/generate-search-index.mjs).
+   It reads (never edits) `public/soemdsp-sandbox/`, so after dropping in a new
+   sandbox build:
+
+   ```
+   npm run search:index   # rebuild the module corpus
+   npm run sitemap        # rebuild public/sitemap.xml from it
+   ```
+
+   Both run automatically as part of `npm run build`. Commit the output.
+
+[`src/search/search.test.ts`](src/search/search.test.ts) asserts the promise the
+feature makes — search `bessel`, get the Bessel-Thomson filter — against the
+real corpus, so a rename breaks the test before it breaks the search box.
 
 ## Routing convention
 
